@@ -21,7 +21,7 @@ public Lab006(int n, int m) {
         System.out.println("Give me a second integer");
         String y = scanner.nextLine();
 
-        Lab006 L = new Lab006(x, y);
+        Lab006 L = new Lab006(x, y) ;
         L.isDivisible();
 
         public static int parseInt(String"x", String"y");
