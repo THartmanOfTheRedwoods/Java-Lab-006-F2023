@@ -28,6 +28,8 @@ public Lab006(int n, int m) {
         int = Integer.parseInt(String "x");
         int = Integer.parseInt(y);
 
+
+
     }
 
 }
