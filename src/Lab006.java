@@ -1,13 +1,23 @@
+/*Finn Clark
+* CIS - 12
+* Hartman
+* 10/5/23
+*  */
 import java.util.Scanner;
 
 public class Lab006 {
-    private int n;
-    private int m;
+    final private int  n;
+    final private int m;
     public int quotient;
     public Lab006(int n, int m){
         this.n = n;
         this.m = m;
     }
+
+    /**Setting the n%m quotient to the public instance variable "quotient"
+     * No parameters
+     * @return boolean true if divisible or false if not
+     */
     public boolean isDivisible(){
         this.quotient = n%m;
         if (quotient == 0){
@@ -26,7 +36,6 @@ public class Lab006 {
         int y = scanner.nextInt();
         Lab006 lab = new Lab006(x, y);
         lab.isDivisible();
-        System.out.print(lab.quotient);
     }
 
 

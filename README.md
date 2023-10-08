@@ -5,7 +5,7 @@
 In this README.md, answer the following question:
 
 * What happens if you invoke a value method (i.e. a method that returns a result) and don't do anything with the returned result; that is, if you don't assign the returned result to a variable or use it as part of a larger expression?
-
+1. If you invoke a value method and don't do anything with the returned result, IntelliJ will throw an error saying that a returned result is being ignored. The returned value should be used in a method or assigned to a variable. If neither, then the block should have a void return type.  
 ## PART 2
 * Fork and clone this lab as you have done in all previous labs, and then complete the following:
     * Create a new **class** called **Lab006**
