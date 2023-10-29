@@ -4,7 +4,8 @@
 
 In this README.md, answer the following question:
 
-* What happens if you invoke a value method (i.e. a method that returns a result) and don't do anything with the returned result; that is, if you don't assign the returned result to a variable or use it as part of a larger expression?
+* What happens if you invoke a value method (i.e. a method that returns a result) and don't do anything with the returned result; that is, if you don't assign the returned result to a variable or use it as part of a larger expression? You will get 
+* a error where the computer doesn't know what to read as the value for the method. 
 
 ## PART 2
 * Fork and clone this lab as you have done in all previous labs, and then complete the following:
