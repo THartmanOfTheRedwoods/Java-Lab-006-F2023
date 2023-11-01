@@ -1,3 +1,8 @@
+//Naqibullah Haiwadpal
+//10/28/2023  n
+//Naqibullah Haiwadpal
+//10/28/2023
+
 import java.util.Scanner;
 
 /**
